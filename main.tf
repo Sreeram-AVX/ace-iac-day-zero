@@ -39,7 +39,7 @@ module "aws_transit_1" {
 # AWS Spoke Modules
 module "aws_spoke_1" {
   source          = "terraform-aviatrix-modules/mc-spoke/aviatrix"
-  version         = "1.5.0
+  version         = "1.5.0"
   cloud           = "AWS"
   account         = var.aws_account_name
   region          = var.aws_spoke1_region
