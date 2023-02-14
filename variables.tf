@@ -12,7 +12,7 @@ variable "ace_password" {
 }
 
 variable "aws_account_name" {
-  default = "aws-account"
+  default = "Sree-AWS"
 }
 
 variable "aws_transit_instance_size" {
@@ -52,7 +52,7 @@ variable "aws_test_instance_size" {
 }
 
 variable "azure_account_name" {
-  default = "azure-account"
+  default = "Sree-Azure"
 }
 
 variable "azure_subscription_id" {
